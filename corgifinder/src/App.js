@@ -1,6 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
 // import './App.css';
+import Corgi from './corgi'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <h2>
           This isn't elegant but it works right now
         </h2>
+        <Corgi ></Corgi>
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         {/* <p>
           Edit <code>src/App.js</code> and save to reload.
