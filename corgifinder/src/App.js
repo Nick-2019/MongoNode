@@ -104,6 +104,7 @@ class App extends Component {
     const { data } = this.state;
     return (
       <div>
+        <h1>Hey I loaded!</h1>
         <ul>
           {data.length <= 0
             ? 'NO DB ENTRIES YET'
