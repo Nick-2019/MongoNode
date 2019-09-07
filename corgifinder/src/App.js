@@ -1,6 +1,7 @@
 // /client/App.js
 import React, { Component } from 'react';
 import axios from 'axios';
+import Corgi from './corgi'
 
 class App extends Component {
   // initialize our state
@@ -105,6 +106,7 @@ class App extends Component {
     return (
       <div>
         <h1>Hey I loaded!</h1>
+        <Corgi />
         <ul>
           {data.length <= 0
             ? 'NO DB ENTRIES YET'
